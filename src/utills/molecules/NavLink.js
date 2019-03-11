@@ -13,7 +13,7 @@ export default class NavLink extends Component {
     return (
       <Link
         style={{
-          fontSize: 24,
+          fontSize: 18,
           textDecoration: 'none',
         }}
         to={to}

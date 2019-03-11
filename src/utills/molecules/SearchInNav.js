@@ -64,7 +64,7 @@ const options = items.map(item => (
 
 export default class SearchInNav extends Component {
   static propTypes = {
-    handleSearchTextChange: PropTypes.func.isRequired,
+    handleSearchTextChange: PropTypes.func,
   }
 
   handleInputChange = (e) => {
@@ -75,11 +75,11 @@ export default class SearchInNav extends Component {
     return (
       <div
         style={{
-          width: 250
+          width: '100%'
         }}>
         <AutoComplete
           dropdownMatchSelectWidth={false}
-          dropdownStyle={{ width: 300 }}
+          dropdownStyle={{ width: 250 }}
           size="large"
           style={{ width: '100%' }}
           dataSource={options}

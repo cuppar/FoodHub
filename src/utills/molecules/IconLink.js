@@ -18,11 +18,11 @@ export default class IconLink extends Component {
 
   componentDidMount() {
     let min = Math.min(this.img.current.width, this.img.current.height)
-    
-    // console.log('this.img.current', this.img.current)
-    // console.log('this.img.current.width', this.img.current.width)
-    // console.log('this.img.current.height', this.img.current.height)
-    // console.log('min :', min);
+
+    console.log('this.img.current', this.img.current)
+    console.log('this.img.current.width', this.img.current.width)
+    console.log('this.img.current.height', this.img.current.height)
+    console.log('min :', min);
 
     this.setState({
       style: {
@@ -30,20 +30,24 @@ export default class IconLink extends Component {
         width: min + 'px',
         height: min + 'px',
         overflow: 'hidden',
+        display: 'inline-block'
       }
     })
   }
 
   render() {
+    const { to, iconSrc, ...rest } = this.props;
     return (
       <Link
-        to={this.props.to}>
+        to={to}>
         <div
-          style={this.state.style}>
+          style={this.state.style}
+          {...rest}
+        >
           <img
             ref={this.img}
-            src={this.props.iconSrc}
-            alt={'link to ' + this.props.to} />
+            src={iconSrc}
+            alt={'link to ' + to} />
         </div>
       </Link>
     )

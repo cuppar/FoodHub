@@ -7,18 +7,39 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 //
-import Test from './utills/molecules/SearchInNav';
-import logo from './utills/assets/images/weibo.png';
+import Test from './utills/organisms/NavHeader';
+import Test2 from './utills/organisms/Footer';
 
 
 class MyTest extends React.Component {
-  handleSearchTextChange = (searchText) => {
-    console.log('searchText', searchText)
+  constructor(props) {
+    super(props)
+    this.state = {
+      login: false,
+      loginedUser: {
+        nickName: 'cuppar',
+        userName: 'root',
+        password: 'root'
+      }
+    }
+  }
+
+  handleLogout = () => {
+    this.setState({
+      login: false
+    })
   }
 
   render() {
     return (
-      <Test handleSearchTextChange={this.handleSearchTextChange} />
+      <div>
+        <Test
+          login={this.state.login}
+          user={this.state.loginedUser}
+          handleLogout={this.handleLogout}
+        />
+        <Test2 />
+      </div>
     )
   }
 }
@@ -28,9 +49,7 @@ ReactDOM.render(
     <Switch>
       <Route path='/404' component={NoFind} />
       {/* <Route component={App} /> */}
-      <Route render={() => (
-        <MyTest />
-      )} />
+      <Route component={MyTest} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
