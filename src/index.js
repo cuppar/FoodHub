@@ -7,12 +7,15 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 //
-import Test from './utills/templates/ContentContainer';
+import Test from './utills/templates/FoodPanel';
+import paginationTabs from './utills/templates/paginationTabs';
+import chineseFoodTabs from './chinese_food/datas/chineseFoodTabsData';
 import Test2 from './utills/organisms/Footer';
 import Test3 from './home/organisms/Banner';
 import Test4 from './home/templates/FoodPanelList';
 import Test5 from './home/molecules/FoodPanelTitle';
 import foodCategorys from './home/datas/foodCategorysData'
+import logo from './utills/assets/images/logo.png';
 
 
 
@@ -43,6 +46,8 @@ class MyTest extends React.Component {
   }
 
   render() {
+    // let Tabs = paginationTabs(Test, chineseFoodTabs);
+
     return (
       <div>
         {/* <Test
@@ -55,11 +60,22 @@ class MyTest extends React.Component {
         <Test3 />
         <Test4 foodCategorys={foodCategorys} />
         <Test2 /> */}
-        <Test
-          handleLogin={() => { }}
-          handleSignUp={() => { }}
-          handleSelectedPageChange={() => { }}
-        />
+        <Test tabs={chineseFoodTabs} />
+        {/* <Test
+          // handleLogin={() => { }}
+          // handleSignUp={() => { }}
+          // handleSelectedPageChange={() => { }}
+          food={{
+            path: '/path',
+            imgSrc: logo,
+            description: {
+              title: 'title',
+              material: 'material',
+              ingredients: 'ingredients',
+              cookBook: ['1', '2']
+            }
+          }}
+        /> */}
       </div>
     )
   }
@@ -70,7 +86,7 @@ ReactDOM.render(
     <Switch>
       <Route path='/404' component={NoFind} />
       <Route component={App} />
-      {/* <Route component={MyTest} /> */}
+      <Route component={MyTest} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')

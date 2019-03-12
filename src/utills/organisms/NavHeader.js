@@ -12,7 +12,8 @@ import routes from '../datas/routes';
 const Item = Menu.Item;
 const wapperStyle = {
   borderBottom: '1px solid #e8e8e8',
-  boxShadow: '0 -8px 20px 0px'
+  boxShadow: '0 -8px 20px 0px',
+  backgroudColor: '#fff',
 }
 
 let key;
@@ -72,8 +73,8 @@ export default class NavHeader extends Component {
             sm={{ span: 4, offset: 1 }}
             md={{ span: 9, offset: 0 }}
             lg={{ span: 9, offset: 0 }}
-            xl={{ span: 14, offset: 0 }}
-            xxl={{ span: 14, offset: 0 }}
+            xl={{ span: 15, offset: 0 }}
+            xxl={{ span: 15, offset: 0 }}
           >
             {menu}
           </Col>
@@ -82,11 +83,11 @@ export default class NavHeader extends Component {
             sm={{ span: 8, offset: 1 }}
             md={{ span: 6, offset: 1 }}
             lg={{ span: 6, offset: 1 }}
-            xl={{ span: 4, offset: 1 }}
-            xxl={{ span: 4, offset: 1 }}
+            xl={{ span: 4, offset: 0 }}
+            xxl={{ span: 4, offset: 0 }}
           >
             <div style={{
-              margin: '4px 0'
+              margin: '4px 0',
             }}>
               <SearchInNav />
             </div>

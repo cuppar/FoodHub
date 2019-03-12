@@ -11,17 +11,17 @@ const foodCategorys = [
     foods: [
       {
         foodName: '中国川菜',
-        path: '/chinese-food',
+        path: '/404',
         imgSrc: zgcc
       },
       {
         foodName: '中国粤菜',
-        path: '/chinese-food',
+        path: '/404',
         imgSrc: zgyc
       },
       {
         foodName: '中国闽菜',
-        path: '/chinese-food',
+        path: '/404',
         imgSrc: zgmc
       },
     ]

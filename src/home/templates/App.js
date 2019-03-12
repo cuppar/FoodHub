@@ -3,6 +3,7 @@ import './App.css';
 import NavHeader from '../../utills/organisms/NavHeader'
 import Footer from '../../utills/organisms/Footer'
 import ContentContainer from '../../utills/templates/ContentContainer'
+import { Affix } from 'antd';
 
 class App extends Component {
   constructor(props) {

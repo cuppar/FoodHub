@@ -38,8 +38,8 @@ export default class FoodPanelList extends Component {
       }
     }
 
-    // console.log('fragmentsOfFoodCategorys', fragmentsOfFoodCategorys)
-    // console.log('foodCategorys.length', foodCategorys.length)
+    console.log('fragmentsOfFoodCategorys', fragmentsOfFoodCategorys)
+    console.log('foodCategorys.length', foodCategorys.length)
 
     return (
       <div>
@@ -55,7 +55,7 @@ export default class FoodPanelList extends Component {
             <div
               style={{
                 textAlign: 'center',
-                padding: 16
+                padding: 8
               }}
             >
               <Pagination
