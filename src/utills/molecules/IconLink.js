@@ -19,10 +19,10 @@ export default class IconLink extends Component {
   componentDidMount() {
     let min = Math.min(this.img.current.width, this.img.current.height)
 
-    console.log('this.img.current', this.img.current)
-    console.log('this.img.current.width', this.img.current.width)
-    console.log('this.img.current.height', this.img.current.height)
-    console.log('min :', min);
+    // console.log('this.img.current', this.img.current)
+    // console.log('this.img.current.width', this.img.current.width)
+    // console.log('this.img.current.height', this.img.current.height)
+    // console.log('min :', min);
 
     this.setState({
       style: {

@@ -1,7 +1,7 @@
 const NavHeader = [
   {
     title: '中国菜系',
-    path: '/chineses-food',
+    path: '/chinese-food',
   },
   {
     title: '外国菜系',

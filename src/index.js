@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './home/templates/App';
+import App from './home/templates/App';
 import NoFind from './utills/pages/NoFind';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 //
-import Test from './utills/organisms/NavHeader';
+import Test from './utills/templates/ContentContainer';
 import Test2 from './utills/organisms/Footer';
+import Test3 from './home/organisms/Banner';
+import Test4 from './home/templates/FoodPanelList';
+import Test5 from './home/molecules/FoodPanelTitle';
+import foodCategorys from './home/datas/foodCategorysData'
+
 
 
 class MyTest extends React.Component {
@@ -16,6 +21,7 @@ class MyTest extends React.Component {
     super(props)
     this.state = {
       login: false,
+      selectedKey: 'home',
       loginedUser: {
         nickName: 'cuppar',
         userName: 'root',
@@ -30,15 +36,30 @@ class MyTest extends React.Component {
     })
   }
 
+  handleSelectedKeyChange = (newKey) => {
+    this.setState({
+      selectedKey: newKey
+    })
+  }
+
   render() {
     return (
       <div>
-        <Test
+        {/* <Test
           login={this.state.login}
           user={this.state.loginedUser}
           handleLogout={this.handleLogout}
+          selectedKey={this.state.selectedKey}
+          handleSelectedKeyChange={this.handleSelectedKeyChange}
         />
-        <Test2 />
+        <Test3 />
+        <Test4 foodCategorys={foodCategorys} />
+        <Test2 /> */}
+        <Test
+          handleLogin={() => { }}
+          handleSignUp={() => { }}
+          handleSelectedPageChange={() => { }}
+        />
       </div>
     )
   }
@@ -48,8 +69,8 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path='/404' component={NoFind} />
-      {/* <Route component={App} /> */}
-      <Route component={MyTest} />
+      <Route component={App} />
+      {/* <Route component={MyTest} /> */}
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')

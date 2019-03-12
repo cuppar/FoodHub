@@ -7,6 +7,7 @@ import SearchInNav from '../molecules/SearchInNav'
 import UserInfo from '../molecules/UserInfo'
 import LoginAndSignUpButton from '../molecules/LoginAndSignUpButton'
 import NavLink from '../molecules/NavLink';
+import routes from '../datas/routes';
 
 const Item = Menu.Item;
 const wapperStyle = {
@@ -14,48 +15,52 @@ const wapperStyle = {
   boxShadow: '0 -8px 20px 0px'
 }
 
+let key;
+let routeKeys = Object.keys(routes)
+
 export default class NavHeader extends Component {
   static propTypes = {
     login: PropTypes.bool.isRequired,
     user: PropTypes.object,
     handleLogout: PropTypes.func.isRequired,
-  }
-
-  constructor(props) {
-    super(props)
-    this.state = {
-      current: 'home',
-    }
+    selectedPage: PropTypes.string.isRequired,
+    handleSelectedPageChange: PropTypes.func.isRequired,
   }
 
   handleClick = (e) => {
-    console.log('click e', e)
-    console.log('e.key', e.key)
-    this.setState({
-      current: e.key,
-    })
+    this.props.handleSelectedPageChange(e.key)
   }
 
   render() {
-    const { login, user, handleLogout } = this.props;
-    const { current } = this.state;
+    const { login, user, handleLogout, selectedPage } = this.props;
 
     let menu = (
       <Menu
         onClick={this.handleClick}
-        selectedKeys={[current]}
+        selectedKeys={[selectedPage]}
         mode="horizontal"
       >
-        <Item key="home">
+        <Item key={routes.home.key}>
           <LogoLink />
         </Item>
-        {headerMenuItemList.map(item => (
-          <Item key={
-            Array.from(item.path).slice(1).join('')
-          }>
-            <NavLink to={item.path}>{item.title}</NavLink>
-          </Item>
-        ))}
+        {headerMenuItemList.map(item => {
+          for (let i = 0; i < routeKeys.length; i++) {
+            if (routes[routeKeys[i]].path === item.path) {
+              key = routes[routeKeys[i]].key
+              break
+            }
+          }
+
+          // console.log('item :', item);
+          // console.log('routeKeys :', routeKeys);
+          // console.log('key :', key);
+
+          return (
+            <Item key={key}>
+              <NavLink to={item.path}>{item.title}</NavLink>
+            </Item>
+          )
+        })}
       </Menu>
     )
 
