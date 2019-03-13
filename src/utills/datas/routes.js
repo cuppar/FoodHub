@@ -23,5 +23,9 @@ const routes = {
     path: '/health',
     key: 'health'
   },
+  // restaurantDetail: {
+  //   path: '/restaurant/0',
+  //   key: 'restaurantDetail'
+  // },
 }
 export default routes;

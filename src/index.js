@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 //
-import Test from './utills/templates/FoodPanel';
+import Test from './restaurant/templates/RestaurantPanel';
 import paginationTabs from './utills/templates/paginationTabs';
 import chineseFoodTabs from './chinese_food/datas/chineseFoodTabsData';
 import Test2 from './utills/organisms/Footer';
@@ -60,7 +60,7 @@ class MyTest extends React.Component {
         <Test3 />
         <Test4 foodCategorys={foodCategorys} />
         <Test2 /> */}
-        <Test tabs={chineseFoodTabs} />
+        <Test />
         {/* <Test
           // handleLogin={() => { }}
           // handleSignUp={() => { }}

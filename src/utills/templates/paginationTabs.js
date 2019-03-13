@@ -3,6 +3,8 @@ import { Tabs, Pagination } from 'antd';
 
 const TabPane = Tabs.TabPane;
 
+
+// @tabs:  {title: str, key: str, itemPerPage: number, items: item[]}
 export default function paginationTabs(WrappedComponent, tabs) {
   return class extends Component {
     constructor(props) {
