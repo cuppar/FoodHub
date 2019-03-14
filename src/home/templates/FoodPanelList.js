@@ -38,8 +38,8 @@ export default class FoodPanelList extends Component {
       }
     }
 
-    console.log('fragmentsOfFoodCategorys', fragmentsOfFoodCategorys)
-    console.log('foodCategorys.length', foodCategorys.length)
+    // console.log('fragmentsOfFoodCategorys', fragmentsOfFoodCategorys)
+    // console.log('foodCategorys.length', foodCategorys.length)
 
     return (
       <div>
