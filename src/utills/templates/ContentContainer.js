@@ -9,6 +9,7 @@ import RestaurantPanel from '../../restaurant/templates/RestaurantPanel';
 import RestaurantDetailPanel from '../../restaurant/templates/RestaurantDetailPanel';
 import CookPanel from '../../cook/templates/CookPanel';
 import FoodDetailPanel from '../../cook/templates/FoodDetailPanel';
+import HealthPanel from '../../health/templates/HealthPanel';
 
 export default class ContentContainer extends Component {
   static propTypes = {
@@ -66,6 +67,12 @@ export default class ContentContainer extends Component {
           {/* 食材烹饪详情页 */}
           <Route exact path={routes.cook.path + '/food/0'} render={() => (
             <FoodDetailPanel
+              handleSelectedPageChange={handleSelectedPageChange}
+            />
+          )} />
+          {/* 饮食健康 */}
+          <Route exact path={routes.health.path} render={() => (
+            <HealthPanel
               handleSelectedPageChange={handleSelectedPageChange}
             />
           )} />
