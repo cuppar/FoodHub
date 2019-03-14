@@ -11,7 +11,7 @@ const chineseFoodTabs = [
     itemPerPage: 2,
     items: [
       {
-        path: '/cook',
+        path: '/cook/food/0',
         imgSrc: gbjd,
         description: {
           title: '宫保鸡丁',
@@ -29,10 +29,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: bbj,
         description: {
-          title: '宫保鸡丁2',
+          title: '棒棒鸡',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -47,10 +47,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: hgr,
         description: {
-          title: '宫保鸡丁3',
+          title: '回锅肉',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -65,46 +65,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: yxrs,
         description: {
-          title: '宫保鸡丁4',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁5',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁6',
+          title: '鱼香肉丝',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -126,10 +90,10 @@ const chineseFoodTabs = [
     itemPerPage: 2,
     items: [
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: yxrs,
         description: {
-          title: '宫保鸡丁',
+          title: '鲁菜1',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -144,10 +108,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: hgr,
         description: {
-          title: '宫保鸡丁2',
+          title: '鲁菜2',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -162,10 +126,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: bbj,
         description: {
-          title: '宫保鸡丁3',
+          title: '鲁菜3',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -180,46 +144,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
+        path: '/cook/food/0',
         imgSrc: gbjd,
         description: {
-          title: '宫保鸡丁4',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁5',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁6',
+          title: '鲁菜4',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -241,10 +169,10 @@ const chineseFoodTabs = [
     itemPerPage: 2,
     items: [
       {
-        path: '/cook',
+        path: '/cook/food/0',
         imgSrc: gbjd,
         description: {
-          title: '宫保鸡丁',
+          title: '粤菜1',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -259,10 +187,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: bbj,
         description: {
-          title: '宫保鸡丁2',
+          title: '粤菜2',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -277,10 +205,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: hgr,
         description: {
-          title: '宫保鸡丁3',
+          title: '粤菜3',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -295,46 +223,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: yxrs,
         description: {
-          title: '宫保鸡丁4',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁5',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁6',
+          title: '粤菜4',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -352,14 +244,14 @@ const chineseFoodTabs = [
   },
   {
     title: '苏菜',
-    key: 'cucai',
+    key: 'sucai',
     itemPerPage: 2,
     items: [
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: yxrs,
         description: {
-          title: '宫保鸡丁',
+          title: '苏菜1',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -374,10 +266,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: hgr,
         description: {
-          title: '宫保鸡丁2',
+          title: '苏菜2',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -392,10 +284,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: bbj,
         description: {
-          title: '宫保鸡丁3',
+          title: '苏菜3',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -410,46 +302,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
+        path: '/cook/food/0',
         imgSrc: gbjd,
         description: {
-          title: '宫保鸡丁4',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁5',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁6',
+          title: '苏菜4',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -471,10 +327,10 @@ const chineseFoodTabs = [
     itemPerPage: 2,
     items: [
       {
-        path: '/cook',
+        path: '/cook/food/0',
         imgSrc: gbjd,
         description: {
-          title: '宫保鸡丁',
+          title: '浙菜1',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -489,10 +345,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: bbj,
         description: {
-          title: '宫保鸡丁2',
+          title: '浙菜2',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -507,10 +363,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: hgr,
         description: {
-          title: '宫保鸡丁3',
+          title: '浙菜3',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -525,46 +381,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: yxrs,
         description: {
-          title: '宫保鸡丁4',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁5',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁6',
+          title: '浙菜4',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -586,10 +406,10 @@ const chineseFoodTabs = [
     itemPerPage: 2,
     items: [
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: yxrs,
         description: {
-          title: '宫保鸡丁',
+          title: '闽菜1',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -604,10 +424,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: hgr,
         description: {
-          title: '宫保鸡丁2',
+          title: '闽菜2',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -622,10 +442,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: bbj,
         description: {
-          title: '宫保鸡丁3',
+          title: '闽菜3',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -640,46 +460,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
+        path: '/cook/food/0',
         imgSrc: gbjd,
         description: {
-          title: '宫保鸡丁4',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁5',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁6',
+          title: '闽菜4',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -701,10 +485,10 @@ const chineseFoodTabs = [
     itemPerPage: 2,
     items: [
       {
-        path: '/cook',
+        path: '/cook/food/0',
         imgSrc: gbjd,
         description: {
-          title: '宫保鸡丁',
+          title: '湘菜1',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -719,10 +503,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: bbj,
         description: {
-          title: '宫保鸡丁2',
+          title: '湘菜2',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -737,10 +521,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: hgr,
         description: {
-          title: '宫保鸡丁3',
+          title: '湘菜3',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -755,46 +539,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: yxrs,
         description: {
-          title: '宫保鸡丁4',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁5',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁6',
+          title: '湘菜4',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -816,10 +564,10 @@ const chineseFoodTabs = [
     itemPerPage: 2,
     items: [
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: yxrs,
         description: {
-          title: '宫保鸡丁',
+          title: '徽菜1',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -834,10 +582,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: hgr,
         description: {
-          title: '宫保鸡丁2',
+          title: '徽菜2',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -852,10 +600,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
-        imgSrc: gbjd,
+        path: '/cook/food/0',
+        imgSrc: bbj,
         description: {
-          title: '宫保鸡丁3',
+          title: '徽菜3',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [
@@ -870,46 +618,10 @@ const chineseFoodTabs = [
         }
       },
       {
-        path: '/cook',
+        path: '/cook/food/0',
         imgSrc: gbjd,
         description: {
-          title: '宫保鸡丁4',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁5',
-          material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
-          ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
-          cookBook: [
-            '1、主要材料备齐；',
-            '2、黄瓜洗净切丁，葱段切丁，老姜、蒜切片备用；',
-            '3、鸡腿剔骨；',
-            '4、鸡腿肉在清水中泡1个小时泡去血水，中间换一次水；',
-            '5、鸡腿肉沥干后切成菱形肉块',
-            '6、放入盐、老抽、料酒拌匀后，再加入少许蛋清、水淀粉、白胡椒粉，搅拌均匀备用；',
-            '7、取一个空碗，加入少许盐、糖25克、醋20克、老抽少许、料酒少许、胡椒粉少许、水淀粉少许，调匀备用；',
-          ]
-        }
-      },
-      {
-        path: '/cook',
-        imgSrc: gbjd,
-        description: {
-          title: '宫保鸡丁6',
+          title: '徽菜4',
           material: '原料: 鸡胸肉（或鸡腿肉）、酒鬼花生米（或油炸花生米），鸡蛋一个',
           ingredients: '配料: 葱、姜、蒜、干辣椒、盐、味精、豆腐浆',
           cookBook: [

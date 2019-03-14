@@ -4,7 +4,6 @@ import xxnd from '../assets/images/xxnd.jpg';
 import xgj from '../assets/images/xgj.jpg';
 import mckr from '../assets/images/mckr.jpg';
 import wwc from '../assets/images/wwc.jpg';
-import hdfd from '../assets/images/xiangqing-datu.jpg';
 
 const restaurantFoodTabs = [
   {

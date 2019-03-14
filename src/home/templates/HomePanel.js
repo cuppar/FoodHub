@@ -17,11 +17,7 @@ export default class HomePanel extends Component {
 
   render() {
     return (
-      <div
-        style={{
-          margin: '0 40px'
-        }}
-      >
+      <div>
         <Row>
           <Col span={24}>
             <Banner />

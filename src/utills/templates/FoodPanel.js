@@ -17,11 +17,7 @@ export default class FoodPanel extends Component {
     let FooodTabs = paginationTabs(FoodSinglePage, tabs)
 
     return (
-      <div
-        style={{
-          margin: '0px 40px'
-        }}
-      >
+      <div>
         <BannerCarousel />
         <div
           style={{

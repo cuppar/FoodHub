@@ -19,11 +19,7 @@ export default class RestaurantDetailPanel extends Component {
 
   render() {
     return (
-      <div
-        style={{
-          margin: '0 40px'
-        }}
-      >
+      <div>
         <div style={{
           paddingTop: 40
         }}>

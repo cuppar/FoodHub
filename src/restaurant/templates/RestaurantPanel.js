@@ -19,11 +19,7 @@ export default class RestaurantPanel extends Component {
     let Tabs = paginationTabs(RestaurantSinglePage, restaurantTabsData)
 
     return (
-      <div
-        style={{
-          margin: '0 40px'
-        }}
-      >
+      <div>
         <BannerCarousel />
         <div style={{
           padding: 20

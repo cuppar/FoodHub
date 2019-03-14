@@ -11,17 +11,17 @@ const foodCategorys = [
     foods: [
       {
         foodName: '中国川菜',
-        path: '/404',
+        path: '/chinese-food',
         imgSrc: zgcc
       },
       {
         foodName: '中国粤菜',
-        path: '/404',
+        path: '/chinese-food',
         imgSrc: zgyc
       },
       {
         foodName: '中国闽菜',
-        path: '/404',
+        path: '/chinese-food',
         imgSrc: zgmc
       },
     ]
@@ -47,80 +47,80 @@ const foodCategorys = [
     ]
   },
   {
-    foodCategoryName: '33333333',
+    foodCategoryName: '中国菜系2',
     foods: [
       {
-        foodName: '中国川菜3333',
+        foodName: '中国川菜2',
         path: '/chinese-food',
         imgSrc: zgyc
       },
       {
-        foodName: '中国粤菜33333',
+        foodName: '中国粤菜2',
         path: '/chinese-food',
         imgSrc: zgcc
       },
       {
-        foodName: '中国闽菜3333333',
+        foodName: '中国闽菜2',
         path: '/chinese-food',
         imgSrc: zgmc
       },
     ]
   },
   {
-    foodCategoryName: '44444444',
+    foodCategoryName: '外国菜系2',
     foods: [
       {
-        foodName: '日本料理4444',
+        foodName: '日本料理2',
         path: '/foreign-food',
         imgSrc: hgll
       },
       {
-        foodName: '韩国料理44444',
+        foodName: '韩国料理2',
         path: '/foreign-food',
         imgSrc: hgll
       },
       {
-        foodName: '法国料理44444',
+        foodName: '法国料理2',
         path: '/foreign-food',
         imgSrc: rbll
       },
     ]
   },
   {
-    foodCategoryName: '555555555',
+    foodCategoryName: '中国菜系3',
     foods: [
       {
-        foodName: '中国川菜5555',
+        foodName: '中国川菜3',
         path: '/chinese-food',
         imgSrc: zgmc
       },
       {
-        foodName: '中国粤菜555',
+        foodName: '中国粤菜3',
         path: '/chinese-food',
         imgSrc: zgyc
       },
       {
-        foodName: '中国闽菜55555',
+        foodName: '中国闽菜3',
         path: '/chinese-food',
         imgSrc: zgcc
       },
     ]
   },
   {
-    foodCategoryName: '6666666666',
+    foodCategoryName: '外国菜系3',
     foods: [
       {
-        foodName: '日本料理6666',
+        foodName: '日本料理3',
         path: '/foreign-food',
         imgSrc: rbll
       },
       {
-        foodName: '韩国料理6666',
+        foodName: '韩国料理3',
         path: '/foreign-food',
         imgSrc: fgll
       },
       {
-        foodName: '法国料理6666',
+        foodName: '法国料理3',
         path: '/foreign-food',
         imgSrc: hgll
       },

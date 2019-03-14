@@ -7,6 +7,7 @@ import routes from '../../utills/datas/routes';
 import ForeignFoodPanel from '../../foreign_food/templates/ForeignFoodPanel';
 import RestaurantPanel from '../../restaurant/templates/RestaurantPanel';
 import RestaurantDetailPanel from '../../restaurant/templates/RestaurantDetailPanel';
+import CookPanel from '../../cook/templates/CookPanel';
 
 export default class ContentContainer extends Component {
   static propTypes = {
@@ -21,7 +22,9 @@ export default class ContentContainer extends Component {
       handleSelectedPageChange } = this.props
 
     return (
-      <div>
+      <div style={{
+        margin: '0 40px'
+      }}>
         <Switch>
           {/* 首页 */}
           <Route exact path={routes.home.path} render={() => (
@@ -50,6 +53,12 @@ export default class ContentContainer extends Component {
           {/* 推荐餐厅详情页 */}
           <Route exact path={routes.restaurant.path + '/0'} render={() => (
             <RestaurantDetailPanel
+              handleSelectedPageChange={handleSelectedPageChange}
+            />
+          )} />
+          {/* 食材烹饪 */}
+          <Route exact path={routes.cook.path} render={() => (
+            <CookPanel
               handleSelectedPageChange={handleSelectedPageChange}
             />
           )} />
