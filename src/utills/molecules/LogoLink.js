@@ -6,7 +6,9 @@ export default class LogoLink extends Component {
   render() {
     return (
       <Link to='/'>
-        <img src={logo} alt="foodhub-logo" />
+        <img
+          src={logo}
+          alt="foodhub-logo" />
       </Link>
     )
   }

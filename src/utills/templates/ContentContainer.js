@@ -10,17 +10,21 @@ import RestaurantDetailPanel from '../../restaurant/templates/RestaurantDetailPa
 import CookPanel from '../../cook/templates/CookPanel';
 import FoodDetailPanel from '../../cook/templates/FoodDetailPanel';
 import HealthPanel from '../../health/templates/HealthPanel';
+import SearchPanel from '../../search/templates/SearchPanel';
+import LoginPanel from '../../login/templates/LoginPanel';
 
 export default class ContentContainer extends Component {
   static propTypes = {
     handleLogin: PropTypes.func.isRequired,
     handleSignUp: PropTypes.func.isRequired,
     handleSelectedPageChange: PropTypes.func.isRequired,
+    signUpedUsers: PropTypes.array.isRequired,
   }
 
   render() {
     const { handleLogin,
       handleSignUp,
+      signUpedUsers,
       handleSelectedPageChange } = this.props
 
     return (
@@ -76,7 +80,21 @@ export default class ContentContainer extends Component {
               handleSelectedPageChange={handleSelectedPageChange}
             />
           )} />
-
+          {/* 搜索结果页 */}
+          <Route exact path='/search' render={() => (
+            <SearchPanel
+              handleSelectedPageChange={handleSelectedPageChange}
+            />
+          )} />
+          {/* 登录页 */}
+          <Route exact path='/login' render={({ history }) => (
+            <LoginPanel
+              handleLogin={handleLogin}
+              signUpedUsers={signUpedUsers}
+              history={history}
+              handleSignUp={handleSignUp}
+            />
+          )} />
 
           {/* 404 */}
           <Redirect to='/404' />

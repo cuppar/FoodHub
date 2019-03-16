@@ -56,6 +56,7 @@ export default function paginationTabs(WrappedComponent, tabs) {
                 tab={tab.title}>
                 <WrappedComponent
                   items={fragmentsOfItems[currentPage - 1]}
+                  {...this.props}
                 />
                 {
                   fragmentsOfItems && fragmentsOfItems.length > 1

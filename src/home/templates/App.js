@@ -17,7 +17,7 @@ class App extends Component {
 
   handleSignUp = (user) => {
     this.setState((preState, props) => ({
-      signUpedUsers: preState.signUpedUsers.push(user)
+      signUpedUsers: preState.signUpedUsers.concat([user])
     }))
   }
 
@@ -63,6 +63,7 @@ class App extends Component {
           handleLogin={this.handleLogin}
           handleSignUp={this.handleSignUp}
           handleSelectedPageChange={this.handleSelectedPageChange}
+          signUpedUsers={signUpedUsers}
         />
 
         <Footer />

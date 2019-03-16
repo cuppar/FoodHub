@@ -12,28 +12,32 @@ export default class IconLink extends Component {
     super(props);
     this.img = React.createRef();
     this.state = {
-      style: {}
-    }
-  }
-
-  componentDidMount() {
-    let min = Math.min(this.img.current.width, this.img.current.height)
-
-    // console.log('this.img.current', this.img.current)
-    // console.log('this.img.current.width', this.img.current.width)
-    // console.log('this.img.current.height', this.img.current.height)
-    // console.log('min :', min);
-
-    this.setState({
       style: {
         borderRadius: '50%',
-        width: min + 'px',
-        height: min + 'px',
         overflow: 'hidden',
         display: 'inline-block'
       }
-    })
+    }
   }
+
+  // componentDidMount() {
+  //   let min = Math.min(this.img.current.width, this.img.current.height)
+
+  //   // console.log('this.img.current', this.img.current)
+  //   // console.log('this.img.current.width', this.img.current.width)
+  //   // console.log('this.img.current.height', this.img.current.height)
+  //   // console.log('min :', min);
+
+  //   this.setState({
+  //     style: {
+  //       borderRadius: '50%',
+  //       width: min + 'px',
+  //       height: min + 'px',
+  //       overflow: 'hidden',
+  //       display: 'inline-block'
+  //     }
+  //   })
+  // }
 
   render() {
     const { to, iconSrc, ...rest } = this.props;
