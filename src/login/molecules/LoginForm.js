@@ -93,7 +93,7 @@ export default class LoginForm extends Component {
           fontSize: 20
         }}>
           密码：
-          <Input
+          <Input.Password
             style={{ margin: '10px 0' }}
             onChange={this.handlePasswordChange}
             value={password}

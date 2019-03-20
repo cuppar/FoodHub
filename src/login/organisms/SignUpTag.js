@@ -140,7 +140,7 @@ export default class SignUpTag extends Component {
           fontSize: 20
         }}>
           密码：
-          <Input
+          <Input.Password
             placeholder='请输入密码'
             onChange={this.handlePassword_1Change}
             value={password_1} />
@@ -149,7 +149,7 @@ export default class SignUpTag extends Component {
           fontSize: 20
         }}>
           确认密码：
-          <Input
+          <Input.Password
             placeholder='请确认密码'
             onChange={this.handlePassword_2Change}
             value={password_2} />
